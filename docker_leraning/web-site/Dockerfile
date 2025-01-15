@@ -6,7 +6,5 @@ FROM nginx
 WORKDIR web-site
 COPY . /usr/share/nginx/html/
 
-# CMD ["nginx sta"]
-
 # Expose ports.
 EXPOSE 80:80
